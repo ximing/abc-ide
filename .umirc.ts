@@ -5,8 +5,8 @@ export default defineConfig({
     type: 'none',
   },
   routes: [
-    { path: '/', component: '@/pages/index' },
-    { path: '/mobile', component: '@/pages/mobile' },
+    { path: '/', component: '@/index' },
+    { path: '/mobile', component: '@/mobile' },
   ],
   fastRefresh: {},
   exportStatic: { htmlSuffix: true },
