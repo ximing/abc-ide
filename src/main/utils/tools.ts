@@ -1,4 +1,3 @@
-
 export function throttle(fn: Function, delay: number) {
   let flag = true;
   return (...args: any) => {
